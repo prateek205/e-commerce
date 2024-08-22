@@ -1,0 +1,174 @@
+/* ------------------------------------------------------ Products Container ------------------------------------------------------------ */
+.redmiitemcontainer {
+  width: 100%;
+  display: flex;
+  gap: 2%;
+}
+
+/* ------------------------------------------------------ Redmi Filter Section ---------------------------------------------------------------------*/
+.redmifiltercontainer {
+  width: 20%;
+  margin-left: 1%;
+  height: 10rem;
+  background-color: #fff;
+}
+.redmiproductlistcontainer {
+  width: 76%;
+  height: auto;
+  background-color: #fff;
+}
+
+.redmisortsection {
+  /* border: 0.1rem solid #000; */
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+.redmiheading {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.redmiheading p {
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.redmiheading .redmiproductcount {
+  font-size: 0.85rem;
+  font-weight: 400;
+  color: gray;
+}
+.redmisortlist {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.redmisortheading p {
+  font-size: 0.85rem;
+  font-weight: 600;
+  margin-bottom: 0;
+  text-transform: capitalize;
+}
+.redmisortbtns {
+  display: flex;
+  gap: 1rem;
+}
+.redmisortbtns button {
+  border: 0;
+  outline: 0;
+  background-color: #fff;
+}
+.redmisortbtns button p {
+  margin-bottom: 0;
+  font-size: 0.85rem;
+}
+.redmisortbtns button p:hover {
+  color: #00a2b4;
+}
+
+/* ----------------------------------------------------------- Redmi Product Section ---------------------------------------------------------*/
+.redmiproductlayout {
+  /* border: 0.1rem solid #000; */
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  position: relative;
+  cursor: pointer;
+}
+.redmiproductimage {
+  /* border: 0.1rem solid #000; */
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.redmiproductimage img {
+  width: 10rem;
+  padding: 0.5rem;
+}
+.redmiwishlist {
+  position: absolute;
+  top: 11%;
+  left: 19%;
+}
+.redmiwishlist i {
+  color: rgb(199, 199, 199);
+  font-size: 0.85rem;
+}
+
+.redmidetailing {
+  /* border: 0.1rem solid #000; */
+  margin-left: -40%;
+}
+.redmiproductheading {
+  padding: 0.5rem;
+}
+.redmiproductheading p {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #000;
+}
+.redmiproductspecifications ul li p {
+  font-size: 0.75rem;
+  color: #000;
+  font-weight: 500;
+  margin-top: -2%;
+}
+
+.redmipricesection {
+  /* border: 0.1rem solid #000; */
+  width: 100%;
+  padding: 0.5rem;
+}
+.redmidiscountprice p {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.redmidiscountprice i {
+  font-size: 1.3rem;
+}
+.redmiactaulprice {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-top: -5%;
+}
+.redmioriginalprice {
+  text-decoration: line-through;
+  color: gray;
+}
+.redmioriginalprice p {
+  color: gray;
+  font-size: 0.85rem;
+}
+.redmioriginalprice i {
+  color: gray;
+  font-size: 0.75rem;
+}
+.redmidiscount p {
+  color: rgb(4, 207, 4);
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+.redmifreedelivery {
+  margin-top: -5%;
+}
+.redmifreedelivery p {
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+.redmioffer p {
+  margin-top: -5%;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: rgb(4, 215, 4);
+}
+.redmiexchange p{
+  margin-top: -5%;
+  font-size: 0.85rem;
+  font-weight: 400;
+}

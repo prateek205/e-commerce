@@ -1,0 +1,12 @@
+.productimages{
+    position: relative;
+}
+.apple_wishlist{
+    position: absolute;
+    left: 93%;
+    top: 4%;
+    cursor: pointer;
+}
+.heart{
+    font-size: 1.4rem;
+}

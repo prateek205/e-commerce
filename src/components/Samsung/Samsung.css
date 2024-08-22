@@ -1,0 +1,172 @@
+/* ------------------------------------------------------ Products Container ------------------------------------------------------------ */
+.samsungitemcontainer {
+  width: 100%;
+  display: flex;
+  gap: 2%;
+}
+
+/* ------------------------------------------------------ samsung Filter Section ---------------------------------------------------------------------*/
+.samsungfiltercontainer {
+  width: 20%;
+  margin-left: 1%;
+  height: 10rem;
+  background-color: #fff;
+}
+.samsungproductlistcontainer {
+  width: 76%;
+  height: auto;
+  background-color: #fff;
+}
+.samsungsortsection {
+  /* border: 0.1rem solid #000; */
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+.samsungheading {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.samsungheading p {
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+.samsungheading .samsungproductcount {
+  font-size: 0.85rem;
+  font-weight: 400;
+  color: gray;
+}
+.samsungsortlist {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.samsungsortheading p {
+  font-size: 0.85rem;
+  font-weight: 600;
+  margin-bottom: 0;
+  text-transform: capitalize;
+}
+.samsungsortbtns {
+  display: flex;
+  gap: 1rem;
+}
+.samsungsortbtns button {
+  border: 0;
+  outline: 0;
+  background-color: #fff;
+}
+.samsungsortbtns button p {
+  margin-bottom: 0;
+  font-size: 0.85rem;
+}
+.samsungsortbtns button p:hover {
+  color: #00a2b4;
+}
+
+/* ----------------------------------------------------------- samsung Product Section ---------------------------------------------------------*/
+.samsungproductlayout {
+  /* border: 0.1rem solid #000; */
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  position: relative;
+  cursor: pointer;
+}
+.samsungproductimage {
+  /* border: 0.1rem solid #000; */
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.samsungproductimage img {
+  width: 10rem;
+  padding: 0.5rem;
+}
+.samsungwishlist {
+  position: absolute;
+  top: 11%;
+  left: 19%;
+}
+.samsungwishlist i {
+  color: rgb(199, 199, 199);
+  font-size: 0.85rem;
+}
+
+.samsungdetailing {
+  /* border: 0.1rem solid #000; */
+  margin-left: -40%;
+}
+.samsungproductheading {
+  padding: 0.5rem;
+}
+.samsungproductheading p {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #000;
+}
+.samsungproductspecifications ul li p {
+  font-size: 0.75rem;
+  color: #000;
+  font-weight: 500;
+  margin-top: -2%;
+}
+
+.samsungpricesection {
+  /* border: 0.1rem solid #000; */
+  width: 100%;
+  padding: 0.5rem;
+}
+.samsungdiscountprice p {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.samsungdiscountprice i {
+  font-size: 1.3rem;
+}
+.samsungactaulprice {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-top: -5%;
+}
+.samsungoriginalprice {
+  text-decoration: line-through;
+  color: gray;
+}
+.samsungoriginalprice p {
+  color: gray;
+  font-size: 0.85rem;
+}
+.samsungoriginalprice i {
+  color: gray;
+  font-size: 0.75rem;
+}
+.samsungdiscount p {
+  color: rgb(4, 207, 4);
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+.samsungfreedelivery {
+  margin-top: -5%;
+}
+.samsungfreedelivery p {
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+.samsungoffer p {
+  margin-top: -5%;
+  font-size: 0.65rem;
+  font-weight: 600;
+  color: rgb(4, 215, 4);
+}
+.samsungexchange p{
+  margin-top: -5%;
+  font-size: 0.85rem;
+  font-size: 400;
+}

@@ -1,0 +1,265 @@
+.mobiledescriptioncontainer {
+  width: 98%;
+  margin: auto;
+  margin-top: 1%;
+}
+.mobileheading p {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.mobileinformation p {
+  font-size: 0.75rem;
+  line-height: 1.2rem;
+  font-weight: 500;
+  color: rgb(139, 139, 139);
+}
+
+.saleimg img {
+  width: 100%;
+  height: 22rem;
+  object-fit: cover;
+}
+
+.mobilehomepage {
+  width: 100%;
+  display: flex;
+}
+
+/* ------------------------------------------------------------ Smartphone_Launching_Images -------------------------------------------------------------- */
+.mobilehomerightside {
+  width: 98%;
+  margin-top: 1%;
+}
+.smartphone-ads {
+  width: 100%;
+  margin-left: 1%;
+  margin-bottom: 1%;
+  background-color: #fff;
+}
+
+.smartphone-ads img {
+  width: 100%;
+  height: 20rem;
+}
+.upcoming-sale1 img {
+  width: 100%;
+  height: 20rem;
+  object-fit: cover;
+}
+.upcoming-sale3 img {
+  width: 100%;
+  height: 23rem;
+  object-fit: cover;
+}
+.upcoming-launches img {
+  object-fit: cover;
+  height: 22rem;
+}
+.just-launches1 img,
+.just-launches3 img {
+  object-fit: cover;
+  height: 22rem;
+}
+.just-launches2 img {
+  width: 100%;
+  height: 22rem;
+  object-fit: cover;
+}
+.just-launches4 img{
+  width: 100%;
+  height: 22rem;
+  /* object-fit: contain; */
+}
+
+hr {
+  width: 100%;
+  margin: auto;
+  margin-top: -1%;
+}
+
+.upcomingSaleHeading,
+.upcomingLaunchHeading,
+.justLaunchHeading {
+  padding: 1rem 0rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+.upcomingSaleHeading p,
+.upcomingLaunchHeading p,
+.justLaunchHeading p {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+/* ---------------------------------------------- Slick_Smartphone_Slider ------------------------------------------------ */
+.slick-prev::before,
+.slick-next::before {
+  background-color: #000;
+  display: none;
+}
+
+.slick-arrow.slick-prev,
+.slick-arrow.slick-next {
+  background-color: #fff;
+  width: 2.5rem;
+  height: 30%;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.slick-arrow.slick-prev .arrow-back {
+  color: #00b4d8;
+  font-size: 1rem;
+}
+
+.slick-prev {
+  left: 0;
+  border-radius: 0rem 0.25rem 0.25rem 0rem;
+  box-shadow: 5px 0px 12px 0px rgba(0, 0, 0, 0.25);
+  -webkit-box-shadow: 5px 0px 12px 0px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 5px 0px 12px 0px rgba(0, 0, 0, 0.25);
+}
+
+.slick-arrow.slick-next .arrow-forward {
+  color: #00b4d8;
+  font-size: 1rem;
+}
+.slick-next {
+  right: 0;
+  border-radius: 0.25rem 0rem 0rem 0.25rem;
+  box-shadow: -5px 0px 12px 0px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: -5px 0px 12px 0px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: -5px 0px 12px 0px rgba(0, 0, 0, 0.2);
+}
+
+/* ------------------------------------------------------------ Smartphone_Container ------------------------------------------------------------- */
+.smartphonecontainer {
+  width: 100%;
+  height: 25rem;
+  margin-top: 0%;
+  margin-left: 1%;
+  background-color: #fff;
+}
+.smartphonelayout {
+  padding: 1rem 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+hr {
+  width: 100%;
+  margin: auto;
+  margin-top: 0rem;
+}
+.smartphoneHeading p {
+  margin-bottom: 0;
+  text-transform: capitalize;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.smartphoneviewbtn button {
+  border: 0;
+  outline: 0;
+  padding: 0.5rem 0.85rem;
+  box-shadow: 0rem 0rem 0.1rem rgb(0, 0, 0, 0.6);
+  border-radius: 0.18rem;
+  background-color: #00b4d8;
+  text-transform: uppercase;
+}
+.smartphoneviewbtn button a {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #fff;
+}
+
+.containers {
+  width: 95%;
+  height: auto;
+  position: relative;
+}
+
+
+.productwishlists {
+  position: absolute;
+  left: 88%;
+  top: 2.5%;
+}
+.productwishlists i {
+  font-size: 0.85rem;
+  color: rgb(200, 200, 200);
+}
+
+.carouselimg {
+  height: 20.5rem;
+  height: 80%;
+}
+
+.carouselImg {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.carouselImg p {
+  text-align: center;
+  padding: 0rem 1.5rem;
+}
+.carouselImg img {
+  width: 10rem;
+  padding: 1.5rem;
+  margin-bottom: 1%;
+}
+
+.mobiletitle p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0.2rem 1.5rem;
+  font-size: 0.7rem;
+  font-weight: 500;
+}
+
+.mobilepricelayout {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.45rem;
+  padding: 0.2rem 0.25rem;
+}
+.mobilemainprice {
+  display: flex;
+  align-items: center;
+  font-size: 0.95rem;
+  font-weight: 600;
+  margin-bottom: 0;
+  gap: 0.2rem;
+}
+.mobilemainprice i {
+  font-size: 0.88rem;
+}
+.mobileactualprice {
+  display: flex;
+  align-items: center;
+  font-size: 0.85rem;
+  gap: 0.1rem;
+  margin-bottom: 0;
+  color: rgb(186, 186, 186);
+  text-decoration: line-through;
+}
+.mobileactualprice i {
+  font-size: 0.75rem;
+  color: rgb(186, 186, 186);
+}
+.discountprice {
+  font-size: 0.8rem;
+  font-weight: 600;
+  margin-bottom: 0;
+  color: rgb(9, 130, 9);
+}

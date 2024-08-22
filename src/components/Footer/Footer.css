@@ -1,0 +1,79 @@
+.footercontainer{
+    width: 100%;
+    margin-top: 2.5%;
+    height: 20rem;
+    background-color: #98c1d9;
+}
+
+.footermaincontentlist{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 0.1rem solid #000; */
+    width: 100%;
+    padding-bottom: 5%;
+    gap: 5%;
+    border-bottom: 0.1rem solid #939393;
+}
+
+.footermain{
+    padding-top: 2.5%;
+}
+.footermain h6{
+    color: #3d5a80;
+    margin-left: 0%;
+    font-size: 0.85rem;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.footermain-group h6{
+    color: #3d5a80;
+    margin-left: 5%;
+    font-size: 0.85rem;
+    font-weight: 400;
+    width: 100%;
+    text-transform: uppercase;
+}
+
+.footermain-help h6{
+    color: #3d5a80;
+    font-size: 0.85rem;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.footermain-consumer h6{
+    color: #3d5a80;
+    font-size: 0.85rem;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.footercarrerlist{
+    margin-left: -3%;
+    width: 100%;
+}
+
+.footercarrerlist ul li{
+    font-size: 0.85rem;
+    font-weight: 600;
+    margin-left: -18%;
+    color: #fff;
+}
+
+.footercarrerlist ul li{
+    margin-top: 5%;
+}
+
+.footertitle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2.5%;
+}
+
+.footertitle h6{
+    color: #fff;
+    font-size: 0.85rem;
+}

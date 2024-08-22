@@ -1,0 +1,277 @@
+/* -------------------------------------------------------- Products Container ----------------------------------------------------*/
+.applecontainer {
+  width: 100%;
+  display: flex;
+  gap: 0.85%;
+  margin-top: 1%;
+}
+
+/* ------------------------------------------------------ Filter Section -----------------------------------------------------------*/
+.appleleftcontainer {
+  width: 20%;
+  margin-left: 0.5%;
+  height: 40.2rem;
+  background-color: #fff;
+  /* border: 0.1rem solid #000; */
+}
+.filter-heading {
+  padding: 0.5rem 0.2rem;
+}
+.filter-heading p {
+  margin-bottom: 0;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.filter_heading {
+  padding: 0.5rem 0.2rem;
+}
+.filter_heading p {
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+.brandheading p {
+  margin-bottom: 0;
+  margin-left: -5%;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+.internallists{
+  margin-top: -16%;
+  margin-left: -3%;
+}
+.internallists p{
+  font-size: 0.85rem;
+  margin-bottom: 0;  
+}
+.internallists label{
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 10%;
+  cursor: pointer;
+}
+.pricelist{
+  margin-top: -16%;
+  margin-left: -3%;
+}
+.pricelist p{
+  font-size: 0.85rem;
+  margin-bottom: 0;  
+}
+.pricelist label{
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 10%;
+  cursor: pointer;
+}
+.ramlist{
+  margin-top: -16%;
+  margin-left: -3%;
+}
+.ramlist p{
+  font-size: 0.85rem;
+  margin-bottom: 0;  
+}
+.ramlist label{
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 10%;
+  cursor: pointer;
+}
+
+.hrLine {
+  color: rgb(185, 185, 185);
+}
+.accordion {
+  padding: 0rem;
+  cursor: pointer;
+}
+.accordion .item {
+  border: 0;
+  border-radius: 0;
+  cursor: pointer;
+}
+.accordion .item .brandheading button {
+  background-color: #fff;
+  box-shadow: none;
+}
+
+.applerightcontainer {
+  width: 78%;
+  height: auto;
+  background-color: #fff;
+}
+
+/* --------------------------------------------------------- Sort Section ---------------------------------------------------------*/
+.applesortsection {
+  /* border: 0.1rem solid #000; */
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.appleheading {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.appleheading p {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+.appleheading .appleproductcount {
+  font-size: 0.85rem;
+  font-weight: 400;
+  color: gray;
+}
+
+.applesortlist {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.applesortheading label p {
+  font-size: 0.85rem;
+  font-weight: 600;
+  margin-bottom: 0;
+  text-transform: capitalize;
+}
+.applesortbtns {
+  border: 0;
+  outline: 0;
+  border: 0.1rem solid #000;
+  border-radius: 0.2rem;
+  cursor: pointer;
+}
+.applesortbtns button {
+  border: 0;
+  outline: 0;
+  background-color: #fff;
+}
+.applesortbtns button p {
+  margin-bottom: 0;
+  font-size: 0.85rem;
+}
+.applesortbtns button p:hover {
+  color: #00a2b4;
+}
+
+/* ------------------------------------------------ Products Section ---------------------------------------------------------*/
+.appleproductlayout {
+  /* border: 0.1rem solid #000; */
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  position: relative;
+  cursor: pointer;
+}
+.appleproductimage {
+  /* border: 0.1rem solid #000; */
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.appleproductimage img {
+  width: 10rem;
+  padding: 0.5rem;
+}
+.applewishlist {
+  position: absolute;
+  top: 11%;
+  left: 19%;
+}
+.applewishlist i {
+  color: rgb(199, 199, 199);
+  font-size: 0.85rem;
+}
+
+.appledetailing {
+  /* border: 0.1rem solid #000; */
+  margin-left: -40%;
+}
+.appleproductheading {
+  padding: 0.5rem;
+}
+.appleproductheading p {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #000;
+}
+.appleproductspecifications ul li p {
+  font-size: 0.75rem;
+  color: #000;
+  font-weight: 500;
+  margin-top: -2%;
+}
+
+.applepricesection {
+  /* border: 0.1rem solid #000; */
+  width: 100%;
+  padding: 0.5rem;
+}
+.applediscountprice p {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.applediscountprice i {
+  font-size: 1.3rem;
+}
+.appleactaulprice {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-top: -5%;
+}
+.appleoriginalprice {
+  text-decoration: line-through;
+  color: gray;
+}
+.appleoriginalprice p {
+  color: gray;
+  font-size: 0.85rem;
+}
+.appleoriginalprice i {
+  color: gray;
+  font-size: 0.75rem;
+}
+.applediscount p {
+  color: rgb(4, 207, 4);
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+.applefreedelivery {
+  margin-top: -5%;
+}
+.applefreedelivery p {
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+.appleoffer p {
+  margin-top: -5%;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: rgb(4, 215, 4);
+}
+.appleoffers{
+  margin-top: -5%;
+  font-size: 0.85rem;
+  font-weight: 400;
+}
+.appleexchange p{
+  margin-top: -5%;
+  font-size: 0.85rem;
+  font-weight: 500;
+}

@@ -1,0 +1,98 @@
+.bestcontainer {
+  height: auto;
+  width: 98%;
+  margin: auto;
+  margin-top: 1%;
+  background-color: #fff;
+}
+.bestlayout {
+  padding: 1rem;
+}
+.bestHr {
+  color: #000;
+}
+.bestheading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bestheading p {
+  margin-bottom: 0;
+  font-size: 2rem;
+  font-weight: 600;
+}
+.besttotalcount {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.besttotalcount p {
+  font-size: 1rem;
+  color: #cbcbcb;
+}
+
+.bestcontainerlayout {
+  /* border: 0.1rem solid #000; */
+  margin-top: 1%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.bestcard {
+  /* border: 0.1rem solid #000; */
+  width: 20%;
+  margin: 1rem;
+}
+.bestcardimage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.bestcardimage img{
+    /* padding: 1rem; */
+    width: 10rem;
+}
+.bestcardtitle{
+    text-align: center;
+}
+.bestcardtitle p{
+    font-size: 0.85rem;
+    font-weight: 600;
+}
+.bestcardprice{
+    text-align: center;
+    margin-top: -5%;
+}
+.bestcardprice p{
+    font-size: 0.80rem;
+    font-weight: 500;
+    color: green;
+}
+.bestfeatured{
+    text-align: center;
+    margin-top: -5%;
+}
+.bestfeatured p{
+    font-size: 0.85rem;
+    color: #afafaf;
+}
+.bestprices{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.85rem;
+    margin-top: -5%;
+}
+.bestprices .mainprice{
+    font-size: 1rem;
+    font-weight: 600;
+    color: #000;
+    text-decoration: none;
+}
+.bestprices p{
+    font-size: 0.75rem;
+    color: #afafaf;
+    text-decoration: line-through;
+}

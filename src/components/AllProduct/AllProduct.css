@@ -1,0 +1,15 @@
+.brandslist{
+    margin-top: -16%;
+    margin-left: -3%;  
+}
+.brandslist p{
+    font-size: 0.85rem;
+    margin-bottom: 0;    
+}
+.brandslist label{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-top: 10%;
+    cursor: pointer;  
+}

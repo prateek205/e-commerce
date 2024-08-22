@@ -1,0 +1,201 @@
+/* Items Detail Section */
+.itemdetailcontainer{
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 100%;
+    width: 98%;
+    margin: auto;
+    margin-top: 1%;
+}
+
+/* Item Images */
+.itemdetailleftcontainer{
+    flex-basis: 28%;
+    height: auto;
+    /* border: 0.1rem solid #000; */
+    background-color: #fff;
+}
+.imagecontainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+.imagecontainer img{
+    padding: 1rem;
+    width: 15rem;
+}
+.cartbtn{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 1.5rem;
+    margin-top: 15%;
+    /* border: 0.1rem solid #000; */
+}
+.addtocartbtn button, .buynowbtn button{
+    border: 0;
+    outline: 0;
+    /* border: 0.1rem solid #000; */
+    padding: 0.5rem 1.5rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 0.25rem;
+    font-weight: 600;
+    color: #fff;
+    background-color: #848484;  
+    transition: 0.2s linear;  
+}
+.addtocartbtn button:hover {
+    background-color: rgb(255, 255, 50);
+    color: #000;
+}
+.buynowbtn button:hover{
+    background-color: rgb(8, 241, 241);
+    color: #000;
+}
+
+/* Item Details  */
+.itemdetailrightcontainer{
+    flex-basis: 70%;
+    /* border: 0.1rem solid #000; */
+    background-color: #fff;
+    padding: 1rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Item Title */
+.itemtitle h3{
+    font-size: 1rem;
+}
+
+/* Item Price */
+.itemprice{
+    /* border: 0.1rem solid #000; */
+    width: 25%;
+    display: flex;
+    align-items: center;
+    margin-top: 1%;
+}
+.itemprice p{
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+.itemprice p i{
+    font-size: 1.5rem;
+}
+
+/* Item Actual Price and Discount */
+.cartprices{
+    /* border: 0.1rem solid #000; */
+    width: 25%;
+    display: flex;
+    align-items: center;
+    gap: 15%;
+    margin-top: 1%;
+    padding: 0.5rem 0rem;
+}
+.cartprices .cartactualprice p{
+    margin-bottom: 0;
+    font-size: 1.2rem;
+    color: #848484;
+    text-decoration: line-through;
+}
+.cartprices .cartactualprice p i{
+    font-size: 1em;
+}
+
+.cartprices .cartdiscountprice p{
+    margin-bottom: 0;
+    font-size: 1rem;
+    font-weight: 600;
+    color: rgb(9, 155, 9);
+}
+
+/* Item Description */
+.itemcartdescription{
+    /* border: 0.1rem solid #000; */
+    margin-top: 5%;
+}
+.itemcarttitle{
+    display: flex;
+    gap: 1.8rem;
+}
+.itemcarttitle .desc{
+    font-weight: 500;
+    color: #848484;
+}
+.itemcarttitle .info{
+    font-weight: 600;
+}
+
+/* Item Color */
+.itemcartcolor{
+    /* border: 0.1rem solid #000; */
+    margin-top: 2.5%;
+}
+.itemcolortitle{
+    display: flex;
+    align-items: center;
+    gap: 4.8rem;
+}
+.itemcolortitle .colordesc{
+    font-weight: 500;
+    color: #848484;
+}
+.colorList-btn{
+    /* border: 0.1rem solid #000; */
+    padding: 0.2rem 0.5rem;
+    display: flex;
+    gap: 3rem;      
+}
+.colorList-btn .col-1-btn, .col-2-btn, .col-3-btn{
+    border: 0;
+    outline: 0;
+    padding: 0.5rem 1.5rem; 
+    border-radius: 0.5rem;
+    background-color: #848484;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 0.25s linear;
+}
+.colorList-btn .col-1-btn:hover{
+    background-color: #000;
+    color: rgb(8, 241, 241);
+}
+.colorList-btn .col-2-btn:hover{
+    background-color: #e3e3e3;
+    color: rgb(8, 241, 241);
+}
+.colorList-btn .col-3-btn:hover{
+    background-color: #727272;
+    color: rgb(8, 241, 241);
+}
+
+
+/* Related Product */
+.relatedproductsection{
+    height: auto;
+    width: 98%;
+    margin: auto;
+    margin-top: 1.5%;
+    background-color: #fff;
+}
+.relatedtitle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+    margin: auto;
+}
+.relatedtitle h3{
+    font-size: 1.8rem;
+    font-weight: 500;
+    margin-top: 1%;
+    text-decoration: underline;
+}
+.relatedproductlist{
+    margin-top: 15%;
+}

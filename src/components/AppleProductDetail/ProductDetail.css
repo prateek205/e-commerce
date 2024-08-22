@@ -1,0 +1,515 @@
+.productContainer{
+    width: 100%;
+    height: auto;
+    /* margin-top: 1rem; */
+}
+
+.productlayout{
+    padding: 0.8rem 0.5rem;
+    background-color: #fff;
+    display: flex;
+    gap: 1rem;
+}
+
+.productimgandbtn{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: 33.2rem;
+    /* border: 0.1rem solid #000; */
+    position: sticky;
+    top: 4rem;
+    z-index: 1;
+}
+.productbtns{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 0.5rem;
+    /* border: 0.1rem solid #000; */
+    width: 84%;
+    margin-left: 16.2%;
+}
+.productaddbtn button{
+    padding: 1rem 3.2rem;
+    border: 0;
+    outline: 0;
+    /* border: 0.1rem solid #000; */
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    font-weight: 600;
+    background-color: #00b4d8;
+    color: #fff;
+    border-radius: 0.15rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+.productbtn{
+    color: #fff;
+    font-size: 1rem;
+}
+.productimages{
+    display: flex;
+    margin-left: 0.1%;
+}
+.productsecondaryimg{
+    width: 5rem;
+    height: 25rem;
+    display: flex;
+    flex-direction: column;
+}
+.productsecondaryimg img{
+    border: 0.1rem solid #b4b4b4;
+    padding: 0.15rem;
+    object-fit: cover;
+}
+.productmainimg{
+    border: 0.1rem solid #b4b4b4;
+    width:100%;
+    height: 29rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.productmainimg img{
+    width: 20rem;
+    padding: 0.1rem;
+    object-fit: cover;
+}
+.productdescription{
+    /* border: 0.1rem solid #000; */
+    width: 65%;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+}
+.producttitle p{
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+.productextraoff p{
+    font-size: 0.85rem;
+    font-weight: 500;
+    color: green;
+}
+.productallprice{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-top: -2.5%;
+}
+.productdiscountprice p{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.productmainprice p{
+    font-size: 0.85rem;
+    font-weight: 400;
+    color: #b4b4b4;
+    text-decoration: line-through;
+}
+.productdiscount p{
+    font-weight: 600;
+    color: green;
+}
+
+.mobilewarranty{
+    display: flex;
+    gap: 2.5rem;
+    margin-top: 5%;
+}
+.mobilewarrentyimg{
+    width: 5rem;
+    height: auto;
+    border: 0.15rem solid #b4b4b4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mobilewarrentyimg img{
+    width: 1.5rem;
+}
+.mobilewarrentydetails p{
+    margin-bottom: 0;
+    font-size: 0.85rem;
+    /* border: 0.1rem solid #b4b4b4; */
+}
+.samsungmobilewarranty{
+    display: flex;
+    gap: 2.1rem;
+    margin-top: 5%;
+}
+.samsungmobilewarrentyimg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.samsungmobilewarrentyimg img{
+    border: 0.15rem solid #b4b4b4;
+    width: 6rem;
+}
+.samsungmobilewarrentydetails p{
+    margin-bottom: 0;
+    font-size: 0.85rem;
+}
+.motorolamobilewarranty{
+    display: flex;
+    gap: 2.1rem;
+    margin-top: 5%;
+}
+.motorolamobilewarrentyimg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.motorolamobilewarrentyimg img{
+    border: 0.15rem solid #b4b4b4;
+    width: 6.2rem;
+}
+.motorolamobilewarrentydetails p{
+    margin-bottom: 0;
+    font-size: 0.85rem;
+}
+.redmimobilewarranty{
+    display: flex;
+    gap: 2.8rem;
+    margin-top: 5%;
+}
+.redmimobilewarrentyimg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    object-fit: contain;
+    border: 0.15rem solid #b4b4b4;
+}
+.redmimobilewarrentyimg img{
+    width: 5rem;
+    height: 2rem;
+}
+.redmimobilewarrentydetails p{
+    margin-bottom: 0;
+    font-size: 0.85rem;
+}
+
+.productcolorandstorage{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 5%;
+}
+.productcolor{
+    display: flex;
+    gap: 5.5rem;
+}
+.productcolorheading p{
+    font-size: 0.85rem;
+    font-weight: 500;
+    color: #b4b4b4;
+}
+.productcolorimg{
+    display: flex;
+    gap: 0.5rem;
+}
+.productcolorimg img{
+    padding: 1rem;
+    width: 5rem;
+    object-fit: cover;
+    border: 0.18rem dotted #b4b4b4;
+    cursor: pointer;
+}
+
+.productstorage{
+    display: flex;
+    gap: 4.84rem;
+    /* border: 0.1rem solid #000; */
+}
+.productstorageheading p{
+    font-size: 0.85rem;
+    font-weight: 500;
+    color: #b4b4b4;
+    margin-left: -1%;
+}
+.productdifferentstorage{
+    display: flex;
+    gap: 0.8rem;
+}
+
+.productstr1{
+    width: 5rem;
+    border: 0;
+    outline: 0;
+    border: 0.18rem dotted #b4b4b4;
+    background-color: #fff;
+}
+.productstr1 p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0;
+    font-size: 0.85rem;
+    font-weight: 600;
+}
+.producthighlights{
+    margin-top: 5%;
+    display: flex;
+    gap: 1.8rem;
+}
+.producthighlighttitle p{
+    font-size: 0.85rem;
+    font-weight: 500;
+    color: #b4b4b4;
+}
+.productspecification ul li{
+    font-size: 0.78rem;
+    font-weight: 500;
+}
+.productdescriptions{
+    margin-top: 5%;
+    display: flex;
+    gap: 3.3rem;
+}
+.productdesc p{
+    font-size: 0.85rem;
+    font-weight: 500;
+    color: #b4b4b4;
+}
+.productdescriptive p{
+    font-size: 0.85rem;
+    font-weight: 500;
+    line-height: 1.2rem;
+}
+.productindepthdesc{
+    margin-top: 5%;
+    border: 0.1rem solid #b4b4b4;
+}
+.productdescheading{
+    border-bottom: 0.1rem solid #b4b4b4;
+}
+.productdescheading p{
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 1rem;
+    margin-bottom: 0;
+}
+.productmainlayout1{
+    display: flex;
+    gap: 0.5rem;
+    padding: 1rem;
+    border-bottom: 0.1rem solid #b4b4b4;
+}
+.productdynamic{
+    display: flex;
+    flex-direction: column;
+}
+.productdynamicheading p{
+    font-size: 1rem;
+    font-weight: 500;
+}
+.productdynamicinformation p{
+    font-size: 0.75rem;
+    font-weight: 500;
+}
+.productmainlayout2{
+    display: flex;
+    gap: 0.5rem;
+    padding: 1rem;
+    border-bottom: 0.1rem solid #b4b4b4;
+}
+.producthighlydurable{
+    display: flex;
+    flex-direction: column;
+}
+.producthightitle p{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.producthighinformation p{
+    font-size: 0.75rem;
+    font-weight: 500;
+}
+.productlayout3{
+    display: flex;
+    gap: 0.5rem;
+    padding: 1rem;
+    border-bottom: 0.1rem solid #b4b4b4;
+}
+.productcamera{
+    display: flex;
+    flex-direction: column;
+}
+.productcameratitle p{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.productcamerinformation p{
+    font-size: 0.75rem;
+    font-weight: 500;
+}
+.productlayout4{
+    display: flex;
+    gap: 0.5rem;
+    padding: 1rem;
+    border-bottom: 0.1rem solid #b4b4b4;
+}
+.productprocessorimg img{
+    padding: 0.5rem;
+}
+.productprocessor{
+    display: flex;
+    flex-direction: column;
+}
+.productprocessortitle p{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.productprocessorinformation p{
+    font-size: 0.75rem;
+    font-weight: 500;
+}
+.productlayout5{
+    display: flex;
+    gap: 0.5rem;
+    padding: 1rem;
+    border-bottom: 0.1rem solid #b4b4b4;
+}
+.productUSB{
+    display: flex;
+    flex-direction: column;
+}
+.productUSBtitle p{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.productUSBinformation p{
+    font-size: 0.75rem;
+    font-weight: 500;
+}
+.productUSBimg img{
+    padding: 1rem;
+}
+.productlayout6{
+    display: flex;
+    gap: 0.5rem;
+    padding: 1rem;
+    border-bottom: 0.1rem solid #b4b4b4;
+}
+.productUSB{
+    display: flex;
+    flex-direction: column;
+}
+.productUSBtitle p{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.productUSBinformation p{
+    font-size: 0.85rem;
+    font-weight: 400;
+}
+.productUSBimg img{
+    padding: 1rem;
+}
+.productlayout7{
+    display: flex;
+    gap: 0.5rem;
+    padding: 1rem;
+    border-bottom: 0.1rem solid #b4b4b4;
+}
+.productUSB{
+    display: flex;
+    flex-direction: column;
+}
+.productUSBtitle p{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.productUSBinformation p{
+    font-size: 0.85rem;
+    font-weight: 400;
+}
+.productUSBimg img{
+    padding: 1rem;
+}
+.productlayout8{
+    display: flex;
+    gap: 0.5rem;
+    padding: 1rem;
+    border-bottom: 0.1rem solid #b4b4b4;
+}
+.productUSB{
+    display: flex;
+    flex-direction: column;
+}
+.productUSBtitle p{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.productUSBinformation p{
+    font-size: 0.85rem;
+    font-weight: 400;
+}
+.productUSBimg img{
+    padding: 1rem;
+}
+.productlayout9{
+    display: flex;
+    gap: 0.5rem;
+    padding: 1rem;
+    border-bottom: 0.1rem solid #b4b4b4;
+}
+.productUSB{
+    display: flex;
+    flex-direction: column;
+}
+.productUSBtitle p{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.productUSBinformation p{
+    font-size: 0.85rem;
+    font-weight: 400;
+}
+.productUSBimg img{
+    padding: 1rem;
+}
+.productlayout10{
+    display: flex;
+    gap: 0.5rem;
+    padding: 1rem;
+    /* border-bottom: 0.1rem solid #b4b4b4; */
+}
+.productUSB{
+    display: flex;
+    flex-direction: column;
+}
+.productUSBtitle p{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.productUSBinformation p{
+    font-size: 0.85rem;
+    font-weight: 400;
+}
+.productUSBimg img{
+    padding: 1rem;
+}
+.productlayout11{
+    display: flex;
+    gap: 0.5rem;
+    padding: 1rem;
+}
+.productUSB{
+    display: flex;
+    flex-direction: column;
+}
+.productUSBtitle p{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.productUSBinformation p{
+    font-size: 0.85rem;
+    font-weight: 400;
+}
+.productUSBimg img{
+    padding: 1rem;
+}
